@@ -5,7 +5,7 @@ import { useState } from "react";
 import ValidationError from "./ValidationError";
 
 export default function TestErrors() {
-    const baseUrl = 'http://localhost:8000/';
+    const baseUrl = 'http://localhost:8000/api/';
 
     const [errors, setErrors] = useState(null);
 
